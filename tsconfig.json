@@ -5,7 +5,10 @@
     "target": "es2020",
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "module": "commonjs"
+    "module": "ES2022",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["src"]
 }
